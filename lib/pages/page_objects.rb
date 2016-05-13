@@ -1,5 +1,8 @@
+require_relative 'base_page'
+require_relative 'home_page'
+
 module PageObjects
-  def tv_review
+  def home_page
     @home_page ||= Pages::HomePage.new
   end
 end
