@@ -1,0 +1,4 @@
+---
+  prod:
+    mns:
+        url: http://jsonplaceholder.typicode.com/posts
