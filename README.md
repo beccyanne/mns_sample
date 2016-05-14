@@ -1,6 +1,8 @@
 ## Environment Setup
 
-To get all the required GEMs, from the project root directory execute:
+Pre-requisite: Ruby version 2+ installed
+
+To install all the required GEMs, from the project root directory execute:
     
      $ bundle install
 
@@ -8,12 +10,12 @@ To get all the required GEMs, from the project root directory execute:
 
 To run the tests execute:
 
-	$ cucumber -r lib -r features
+	$ cucumber
 
-To run the tests and produce HTML report, execute:
+## Browser selection
 
-	$ cucumber -r lib -r features -f pretty -f html -o <path>/name-of-test-report.html
+You can choose the browser you wish to run by providing it's name to `BROWSER` env variable:
 
-BROWSER can be one of these values [firefox, chrome, safari]
+	`BROWSER=firefox cucmber`
 
-Running without any value for BROWSER will result in test running on chrome browser by default
+The tests will run in chrome by default. Please note that you will need the browser driver installed and present in environment PATH.
