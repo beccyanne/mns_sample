@@ -7,6 +7,9 @@ When(/^the customer searches for "([^"]*)"$/) do |product|
 end
 
 Then(/^all available "[^"]*" should be presented to the user$/) do
+  # Ideally the expectation would be based on the data setup
+  # from the given step. The below expectation isn't telling
+  # us much.
   expect(home_page.product_count).to be > 1
 end
 
