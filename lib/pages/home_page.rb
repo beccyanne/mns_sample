@@ -6,7 +6,7 @@ module Pages
     element(:search_message) { '#product-listing-page > div.wrap.search-results-plp > div.M083.search-results' }
 
     def visit_page
-      visit 'http://www.marksandspencer.com/'
+      visit ui.mns.url
     end
 
     def search_for_product(product)
