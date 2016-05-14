@@ -1,6 +1,8 @@
 Bundler.require
 require_relative '../../lib/pages/page_objects'
+require_relative '../../lib/config'
 
+include EnvConfig
 include PageObjects
 
 # The block below allows you to access capybara's default values.
