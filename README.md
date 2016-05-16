@@ -1,6 +1,12 @@
 ## Environment Setup
 
-Pre-requisite: Ruby version 2+ installed
+Pre-requisite: 
+
+Ruby version 2+ installed
+
+Then assure bundler gem is isntalled
+
+    $ gem install bundler
 
 To install all the required GEMs, from the project root directory execute:
     
