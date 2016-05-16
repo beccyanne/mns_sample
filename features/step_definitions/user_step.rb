@@ -21,6 +21,6 @@ end
 private
 
 def generate_uuid
-	uuid = UUID.new
-	uuid.generate
+  uuid = UUID.new
+  uuid.generate
 end
