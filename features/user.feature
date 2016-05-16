@@ -4,7 +4,7 @@ As a Client
 I want to create and retrieve users
 So that I can manage better my user pool
 
-Scenario: Ability to retrieve an existing user
+Scenario: Ability to retrieve a user
 	Given I register a user:
 		| title | body |
 		| Pippo | Mns  |
